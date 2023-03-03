@@ -1,2 +1,10 @@
 console.log("Hello World!");
 console.log("Learning a lot to get a amazing job!!!");
+var found = true;
+var grade = 88.6;
+var firstName = "Gabriel";
+var lastName = "Yasuda";
+console.log(found);
+console.log("The grade is " + grade);
+console.log("Hi, " + firstName + " " + lastName);
+console.log("Hi, ".concat(firstName, " ").concat(lastName));
