@@ -1,7 +1,8 @@
-class Customer {
+export class Customer {
   private _firstName: string;
   private _lastName: string;
 
+  //Short way to create a constructor.
   // constructor(private _firstName: string, private _lastName: string) {}
 
   constructor(firstName: string, lastName: string) {
@@ -22,8 +23,3 @@ class Customer {
     this._lastName = value;
   }
 }
-
-console.log("test");
-let c = new Customer("Gabriel", "Yasuda");
-console.log(c.firstName);
-console.log(c.lastName);
