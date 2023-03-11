@@ -7,7 +7,6 @@ let gol = new GolfCoach();
 
 let coaches: Coach[] = [];
 
-console.log("");
 coaches.push(cri);
 coaches.push(gol);
 
