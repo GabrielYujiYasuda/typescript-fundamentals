@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 exports.GolfCoach = void 0;
 var GolfCoach = /** @class */ (function () {
     function GolfCoach() {
